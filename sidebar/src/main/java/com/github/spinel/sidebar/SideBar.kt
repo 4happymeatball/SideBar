@@ -43,7 +43,7 @@ class SideBar : View {
         val specMode = View.MeasureSpec.getMode(width)
         val specSize = View.MeasureSpec.getSize(width)
         if (specMode == View.MeasureSpec.AT_MOST) {
-            return dp2px(30f)
+            return dp2px(textSize)
         }
 
         return specSize
