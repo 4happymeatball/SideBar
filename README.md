@@ -6,7 +6,7 @@ Easy to import and use, clean and friendly, not include any unnecessary part.
 ![](demo.gif)
 
 ## Import
-- compile 'com.4happymeatball:sidebar:1.0.2'
+- compile 'com.4happymeatball.sidebar:1.0.2'
 
 ## Usage
 - Layout
