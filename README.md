@@ -6,10 +6,12 @@
 ## Usage
 ```
 <com.github.spinel.sidebar.SideBar
+        ...
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-        app:textColorNormal="@color/colorPrimary"
-        app:textColorPressed="@color/colorAccent"
+        ...
+        
+        app:textColorNormal="@color/colorNormal"
+        app:textColorPressed="@color/colorBelowFingerPressed"
         app:textSize="16sp" />
 ```
