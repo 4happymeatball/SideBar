@@ -1,6 +1,4 @@
 # SideBar
-[ ![Download](https://api.bintray.com/packages/spinel/maven/sidebar/images/download.svg?version=1.0.3) ](https://bintray.com/spinel/maven/sidebar/1.0.3/link)
-
 A sidebar widget for Android, use to show contact list.
 
 Easy to import and use, clean and friendly, not include any unnecessary part.
@@ -9,7 +7,9 @@ Easy to import and use, clean and friendly, not include any unnecessary part.
 ![](demo.gif)
 
 ## Import
-- implementation 'com.github.spinel:sidebar:1.0.3'
+[ ![Download](https://api.bintray.com/packages/spinel/maven/sidebar/images/download.svg?version=1.0.3) ](https://bintray.com/spinel/maven/sidebar/1.0.3/link)
+
+- implementation 'com.github.spinel:sidebar:<latest-version>'
 
 ## Usage
 - Layout
