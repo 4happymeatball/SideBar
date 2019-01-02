@@ -1,4 +1,7 @@
 # SideBar
+A sidebar widget for Android, use to show contact list.
+Easy to import and use, clean and friendly, not include any unnecessary part.
+
 ## Preview
 ![](demo.gif)
 
