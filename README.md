@@ -24,7 +24,7 @@ Easy to import and use, clean and friendly, not include any unnecessary part.
     />
 ```
 
-- Use in Kotlin (prefer)
+- Use in Kotlin (recommended)
 ```
     sideBar.initials = (arrayOf("A", "B", "C", "D", "E", "F", "春", "夏", "秋", "冬", "E", "F", "#"))
     sideBar.hintView = hintView
