@@ -1,4 +1,6 @@
 # SideBar
+## Preview
+![](demo.gif)
 
 ## Import
 - compile 'com.4happymeatball:sidebar:1.0.2'
@@ -13,5 +15,5 @@
         
         app:textColorNormal="@color/colorNormal"
         app:textColorPressed="@color/colorBelowFingerPressed"
-        app:textSize="16sp" />
+        app:textSize="16sp " />
 ```
