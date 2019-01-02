@@ -6,7 +6,7 @@ Easy to import and use, clean and friendly, not include any unnecessary part.
 ![](demo.gif)
 
 ## Import
-- compile 'com.4happymeatball.sidebar:1.0.2'
+- implementation 'com.github.spinel:sidebar:1.0.3'
 
 ## Usage
 - Layout

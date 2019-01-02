@@ -35,9 +35,9 @@ buildscript {
 
 publish {
     userOrg = 'spinel'
-    groupId = 'com.4happymeatball'
+    groupId = 'com.github.spinel'
     artifactId = 'sidebar'
-    publishVersion = '1.0.2'
+    publishVersion = '1.0.3'
     desc = 'Android sidebar widget use for show contact list initials.'
     website = 'https://github.com/4happymeatball/SideBar'
 }
