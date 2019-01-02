@@ -9,14 +9,33 @@ Easy to import and use, clean and friendly, not include any unnecessary part.
 - compile 'com.4happymeatball:sidebar:1.0.2'
 
 ## Usage
+- Layout
 ```
-<com.github.spinel.sidebar.SideBar
-        ...
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <com.github.spinel.sidebar.SideBar
         ...
         
         app:textColorNormal="@color/colorNormal"
         app:textColorPressed="@color/colorBelowFingerPressed"
-        app:textSize="16sp " />
+        app:textSize="16sp "
+    />
+```
+
+- Use in Kotlin (prefer)
+```
+    sideBar.initials = (arrayOf("A", "B", "C", "D", "E", "F", "春", "夏", "秋", "冬", "E", "F", "#"))
+    sideBar.hintView = hintView
+    sideBar.callback = { pos, initial -> Log.i("info", "$pos -> $initial") }
+```
+
+- Use in Java
+```
+    sideBar.setInitials(new String[]{"A", "B", "C", "D", "E", "F", "春", "夏", "秋", "冬", "E", "F", "#"});
+    sideBar.setHintView(hintView);
+    sideBar.setCallback(new Function2<Integer, String, Unit>() {
+        @Override
+        public Unit invoke(Integer pos, String initial) {
+            Log.i("info", pos + " -> " + initial);
+            return null;
+        }
+    });
 ```

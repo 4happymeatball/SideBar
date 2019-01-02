@@ -20,7 +20,7 @@ class SideBar : View {
     private var textSize = 0f
     var callback = { _: Int, _: String -> }
     var initials = arrayOf<String>()
-    var hint: TextView? = null
+    var hintView: TextView? = null
 
     constructor(context: Context, attrs: AttributeSet) : super(context, attrs) {
         val values = context.obtainStyledAttributes(attrs, R.styleable.SideBar)
@@ -92,7 +92,7 @@ class SideBar : View {
 
         when (event.action) {
             MotionEvent.ACTION_UP -> {
-                hint?.visibility = View.GONE
+                hintView?.visibility = View.GONE
 
                 latestPress = -1
                 invalidate()
@@ -101,8 +101,8 @@ class SideBar : View {
             else -> {
                 if (currentPress != pos) {
                     if (pos >= 0 && pos < initials.size) {
-                        hint?.text = initials[pos]
-                        hint?.visibility = View.VISIBLE
+                        hintView?.text = initials[pos]
+                        hintView?.visibility = View.VISIBLE
                         callback.invoke(pos, initials[pos])
 
                         latestPress = pos

@@ -13,7 +13,7 @@ class TestActivity : AppCompatActivity() {
         setContentView(R.layout.activity_test)
 
         sideBar.initials = (arrayOf("A", "B", "C", "D", "E", "F", "春", "夏", "秋", "冬", "E", "F", "#"))
-        sideBar.hint = hint
+        sideBar.hintView = hintView
         sideBar.callback = { pos, initial -> Log.i("info", "$pos -> $initial") }
     }
 }
