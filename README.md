@@ -9,7 +9,7 @@ Easy to import and use, clean and friendly, not include any unnecessary part.
 ## Import
 [ ![Download](https://api.bintray.com/packages/spinel/maven/sidebar/images/download.svg?version=1.0.5) ](https://bintray.com/spinel/maven/sidebar/1.0.5/link)
 ```
-    implementation 'com.github.spinel:sidebar:<latest-version>'
+    implementation 'com.spinel:sidebar:<latest-version>'
 ```
 
 ## Usage
