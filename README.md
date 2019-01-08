@@ -7,7 +7,7 @@ Easy to import and use, clean and friendly, not include any unnecessary part.
 ![](demo.gif)
 
 ## Import
-[ ![Download](https://api.bintray.com/packages/spinel/maven/sidebar/images/download.svg?version=1.0.3) ](https://bintray.com/spinel/maven/sidebar/1.0.3/link)
+[ ![Download](https://api.bintray.com/packages/spinel/maven/sidebar/images/download.svg?version=1.0.5) ](https://bintray.com/spinel/maven/sidebar/1.0.5/link)
 ```
     implementation 'com.github.spinel:sidebar:<latest-version>'
 ```
@@ -15,7 +15,7 @@ Easy to import and use, clean and friendly, not include any unnecessary part.
 ## Usage
 - Layout
 ```
-    <com.github.spinel.sidebar.SideBar
+    <com.spinel.sidebar.SideBar
         ...
         
         app:textColorNormal="@color/colorNormal"
