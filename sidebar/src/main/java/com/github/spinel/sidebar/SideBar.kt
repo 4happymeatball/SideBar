@@ -1,4 +1,4 @@
-package com.spinel.sidebar
+package com.github.spinel.sidebar
 
 import android.content.Context
 import android.graphics.Canvas

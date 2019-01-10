@@ -1,4 +1,4 @@
-package com.spinel.sidebardemo
+package com.github.spinel.sidebardemo
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

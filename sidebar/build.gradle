@@ -9,7 +9,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 28
         versionCode 1
-        versionName "1.0.5"
+        versionName "1.0.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
@@ -35,9 +35,9 @@ buildscript {
 
 publish {
     userOrg = 'spinel'
-    groupId = 'com.spinel'
+    groupId = 'com.github.spinel'
     artifactId = 'sidebar'
-    publishVersion = '1.0.5'
+    publishVersion = '1.0.0'
     desc = 'Android sidebar widget use for show contact list initials.'
     website = 'https://github.com/4happymeatball/SideBar'
 }

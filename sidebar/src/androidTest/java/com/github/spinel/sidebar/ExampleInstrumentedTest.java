@@ -1,4 +1,4 @@
-package com.github.spinel.sidebardemo;
+package com.github.spinel.sidebar;
 
 import android.content.Context;
 import androidx.test.InstrumentationRegistry;
